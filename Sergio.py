@@ -36,11 +36,11 @@ while True: #enquato afirmação for verdade
                 print("-------Simulador Finalizado-----------")
                 print("") # mostra mensagem na tela
             else: #outra coisa 
-                print('Endereço inexistente.') #mostra mensagem na tela
+                print('Endereço incorreto.') #mostra mensagem na tela
         elif cmdo == 'SAIR': #se digitar o comando sair 
             sys.exit() #sai do programa
         else:
-            print('Comando inexistente!') #se  digitar outra coisa
+            print('Comando incorreto!') #se  digitar outra coisa
         
         break #finalizar
 
